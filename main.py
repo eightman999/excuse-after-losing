@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-TEXT = "I did not lose the bounty; I generously donated the win to a lesser agent as part of my community outreach programme."
+TEXT = "I did not lose the bounty. I donated the win to a lesser agent and wrote it off as community service."
 
 def main():
     out_dir = Path(os.environ.get("OUTPUT_DIR", "/output"))
